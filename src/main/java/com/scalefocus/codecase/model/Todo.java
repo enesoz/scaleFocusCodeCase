@@ -12,4 +12,9 @@ public class Todo {
     private long userId;
     private String title;
     private boolean completed;
+
+    public Todo(Long id, String desc) {
+        this.title = desc;
+        this.id = id;
+    }
 }
